@@ -1,0 +1,67 @@
+body {
+    min-height: 100vh;
+    background: url('/contact-me/Assets/img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.bg-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(20, 20, 30, 0.7);
+    z-index: 0;
+}
+
+.contact-container {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contact-desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #e0e0e0;
+}
+
+.contact-icons .icon-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    /* background: rgba(40, 40, 50, 0.7); */
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.contact-icons .icon-link:hover {
+    /* background: #007bff; */
+    color: #fff;
+    transform: translateY(-3px) scale(1.03);
+}
+
+@media (max-width: 767.98px) {
+    .contact-row {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .contact-icons {
+        margin-top: 2rem;
+    }
+}
