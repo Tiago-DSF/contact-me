@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    background: url('/contact-me/Assets/img/bg.jpg') no-repeat center center fixed !important;
+    background: url('/contact-me/Assets/img/background.jpg') no-repeat center center fixed !important;
     background-size: cover;
     color: #fff;
 }
