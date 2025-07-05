@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
     background-color: #232526;
-    background-image: url('/Assets/img/background.jpg');
+    background-image: linear-gradient(rgba(20,20,30,0.7), rgba(20,20,30,0.7)), url('/Assets/img/background.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
