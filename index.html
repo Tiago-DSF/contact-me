@@ -22,52 +22,55 @@
 </head>
 
 <body>
-    
+
     <div class="container contact-container">
         <div class="row contact-row d-flex align-items-center justify-content-center w-100">
-            <div class="col-md-7">
+            <div class="col-md-7" id="contact-description"
+                style="background: rgba(30, 30, 40, 0.22); backdrop-filter: blur(2.5px); -webkit-backdrop-filter: blur(2.5px); border-radius: 18px; box-shadow: 0 1px 8px 0 rgba(0,0,0,0.07); transition: background 0.8s, backdrop-filter 0.8s;">
                 <h1 class="contact-title mb-4  mt-4 animate-title" tabindex="0">Tiago Ferreira</h1>
                 <p class="contact-desc mt-3 animate-desc" tabindex="0">
                     Olá! 😊<br>
-                    Tenho reduzido o tempo no Instagram, mas, mesmo assim, fiz questão de manter um canal acessível para quem quiser falar comigo.<br>
-                    Fico muito grato pela sua visita. Se precisar tratar de algo, tirar dúvidas ou trocar ideia, será um prazer conversar com você.<br>
-                    Os meios abaixo estão à disposição — sinta-se à vontade para me chamar. Estou por aqui para falar com você :)
+                    Tenho reduzido meu tempo no Instagram, mas quis manter um canal fácil para quem quiser falar
+                    comigo.<br>
+                    <span style="font-style: italic;">(Se eu não responder lá no Insta 😅, agora você já sabe onde me
+                        achar!)</span><br>
+                    Se quiser conversar, tirar dúvidas ou trocar ideia, é só me chamar. Estou por aqui <span style="font-style: italic;"> ( Ou em uma dessas opções aí ) :p
+
                 </p>
             </div>
-            <div class="col-md-5 contact-icons d-flex align-items-start align-items-md-start justify-content-md-start justify-content-center animate-icons" style="animation-delay: 0.6s;">
-                <ul class="list-unstyled w-auto ms-md-4" aria-label="Meios de contato">
-                    <li class="mb-3">
-                        <a id="whatsapp-link" class="icon-link d-flex align-items-center justify-content-center" aria-label="WhatsApp" title="Fale comigo no WhatsApp" tabindex="0">
+            <div class="col-md-5 contact-icons d-flex align-items-start align-items-md-start justify-content-md-start justify-content-center animate-icons flex-md-column flex-row"
+                style="animation-delay: 0.6s;">
+                <ul class="list-unstyled w-auto ms-md-4 d-flex flex-md-column flex-row gap-3 justify-content-center align-items-center"
+                    aria-label="Meios de contato">
+                    <li class="mb-0">
+                        <a id="whatsapp-link" class="icon-link d-flex align-items-center justify-content-center"
+                            aria-label="WhatsApp" title="Fale comigo no WhatsApp" tabindex="0">
                             <span class="d-flex align-items-center justify-content-center"
                                 style="width:56px; height:56px; background:#181c20; border-radius:50%; box-shadow:0 0 16px #00fff7; transition: box-shadow 0.3s;"
-                                onmouseover="this.style.boxShadow='0 0 32px #00fff7, 0 0 8px #00fff7 inset'" onmouseout="this.style.boxShadow='0 0 16px #00fff7';">
+                                onmouseover="this.style.boxShadow='0 0 32px #00fff7, 0 0 8px #00fff7 inset'"
+                                onmouseout="this.style.boxShadow='0 0 16px #00fff7';">
                                 <i class="bi bi-whatsapp" style="font-size: 2rem; color: #00fff7;"></i>
                             </span>
                         </a>
                     </li>
-                    <li class="mb-3">
-                        <a id="email-link" class="icon-link d-flex align-items-center justify-content-center" aria-label="E-mail" title="Envie um e-mail" tabindex="0">
+                    <li class="mb-0">
+                        <a id="instagram-link" href="https://www.instagram.com/tiago.dsf__?igsh=MTlkOXh1d3ptbTExMQ==" class="icon-link d-flex align-items-center justify-content-center"
+                            aria-label="Instagram" title="Acesse meu Instagram" tabindex="0">
                             <span class="d-flex align-items-center justify-content-center"
                                 style="width:56px; height:56px; background:#181c20; border-radius:50%; box-shadow:0 0 16px #00fff7; transition: box-shadow 0.3s;"
-                                onmouseover="this.style.boxShadow='0 0 32px #00fff7, 0 0 8px #00fff7 inset'" onmouseout="this.style.boxShadow='0 0 16px #00fff7';">
-                                <i class="bi bi-envelope-fill" style="font-size: 2rem; color: #00fff7;"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="mb-3">
-                        <a id="instagram-link" class="icon-link d-flex align-items-center justify-content-center" aria-label="Instagram" title="Acesse meu Instagram" tabindex="0">
-                            <span class="d-flex align-items-center justify-content-center"
-                                style="width:56px; height:56px; background:#181c20; border-radius:50%; box-shadow:0 0 16px #00fff7; transition: box-shadow 0.3s;"
-                                onmouseover="this.style.boxShadow='0 0 32px #00fff7, 0 0 8px #00fff7 inset'" onmouseout="this.style.boxShadow='0 0 16px #00fff7';">
+                                onmouseover="this.style.boxShadow='0 0 32px #00fff7, 0 0 8px #00fff7 inset'"
+                                onmouseout="this.style.boxShadow='0 0 16px #00fff7';">
                                 <i class="bi bi-instagram" style="font-size: 2rem; color: #00fff7;"></i>
                             </span>
                         </a>
                     </li>
-                    <li>
-                        <a id="linkedin-link" class="icon-link d-flex align-items-center justify-content-center" aria-label="LinkedIn" title="Veja meu LinkedIn" tabindex="0">
+                    <li class="mb-0">
+                        <a id="linkedin-link" href="https://www.linkedin.com/in/tiago-ferreira-dsf" class="icon-link d-flex align-items-center justify-content-center"
+                            aria-label="LinkedIn" title="Veja meu LinkedIn" tabindex="0">
                             <span class="d-flex align-items-center justify-content-center"
                                 style="width:56px; height:56px; background:#181c20; border-radius:50%; box-shadow:0 0 16px #00fff7; transition: box-shadow 0.3s;"
-                                onmouseover="this.style.boxShadow='0 0 32px #00fff7, 0 0 8px #00fff7 inset'" onmouseout="this.style.boxShadow='0 0 16px #00fff7';">
+                                onmouseover="this.style.boxShadow='0 0 32px #00fff7, 0 0 8px #00fff7 inset'"
+                                onmouseout="this.style.boxShadow='0 0 16px #00fff7';">
                                 <i class="bi bi-linkedin" style="font-size: 2rem; color: #00fff7;"></i>
                             </span>
                         </a>
@@ -76,7 +79,9 @@
             </div>
         </div>
     </div>
-    <footer id="footer" class="text-center py-4 mt-5 animate-footer" style="color:#00fff7; background: rgba(30, 30, 40, 0.5); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-radius: 12px; font-family:'Montserrat',sans-serif; font-size:1rem; box-shadow: 0 4px 32px 0 rgba(0,0,0,0.15); outline: none;" tabindex="0">
+    <footer id="footer" class="text-center py-4 mt-5 animate-footer"
+        style="color:#00fff7; background: rgba(30, 30, 40, 0.5); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-radius: 12px; font-family:'Montserrat',sans-serif; font-size:1rem; box-shadow: 0 4px 32px 0 rgba(0,0,0,0.15); outline: none;"
+        tabindex="0">
         &copy; 2025 Tiago Ferreira. Todos os direitos reservados.
     </footer>
     <!-- Bootstrap JS -->
@@ -86,54 +91,54 @@
         const style = document.createElement('style');
         style.innerHTML = `
 .animate-title {
-    opacity: 0;
-    transform: translateY(-60px) scale(0.95);
-    filter: blur(8px);
-    transition: opacity 1.2s cubic-bezier(.4,0,.2,1), transform 1.2s cubic-bezier(.4,0,.2,1), filter 1.2s cubic-bezier(.4,0,.2,1);
+opacity: 0;
+transform: translateY(-60px) scale(0.95);
+filter: blur(8px);
+transition: opacity 1.2s cubic-bezier(.4,0,.2,1), transform 1.2s cubic-bezier(.4,0,.2,1), filter 1.2s cubic-bezier(.4,0,.2,1);
 }
 .animate-title.visible {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    filter: blur(0);
+opacity: 1;
+transform: translateY(0) scale(1);
+filter: blur(0);
 }
 
 /* Descrição: fade-in + slide para cima + leve delay */
 .animate-desc {
-    opacity: 0;
-    transform: translateY(40px);
-    filter: blur(6px);
-    transition: opacity 1.1s 0.3s cubic-bezier(.4,0,.2,1), transform 1.1s 0.3s cubic-bezier(.4,0,.2,1), filter 1.1s 0.3s cubic-bezier(.4,0,.2,1);
+opacity: 0;
+transform: translateY(40px);
+filter: blur(6px);
+transition: opacity 1.1s 0.3s cubic-bezier(.4,0,.2,1), transform 1.1s 0.3s cubic-bezier(.4,0,.2,1), filter 1.1s 0.3s cubic-bezier(.4,0,.2,1);
 }
 .animate-desc.visible {
-    opacity: 1;
-    transform: translateY(0);
-    filter: blur(0);
+opacity: 1;
+transform: translateY(0);
+filter: blur(0);
 }
 
 /* Ícones: fade-in + scale + stagger */
 .animate-icons {
-    opacity: 0;
-    transform: scale(0.92);
-    filter: blur(8px);
-    transition: opacity 1.2s 0.7s cubic-bezier(.4,0,.2,1), transform 1.2s 0.7s cubic-bezier(.4,0,.2,1), filter 1.2s 0.7s cubic-bezier(.4,0,.2,1);
+opacity: 0;
+transform: scale(0.92);
+filter: blur(8px);
+transition: opacity 1.2s 0.7s cubic-bezier(.4,0,.2,1), transform 1.2s 0.7s cubic-bezier(.4,0,.2,1), filter 1.2s 0.7s cubic-bezier(.4,0,.2,1);
 }
 .animate-icons.visible {
-    opacity: 1;
-    transform: scale(1);
-    filter: blur(0);
+opacity: 1;
+transform: scale(1);
+filter: blur(0);
 }
 
 /* Footer: fade-in + slide para cima + mais lento */
 .animate-footer {
-    opacity: 0;
-    transform: translateY(60px);
-    filter: blur(10px);
-    transition: opacity 1.6s 1.2s cubic-bezier(.4,0,.2,1), transform 1.6s 1.2s cubic-bezier(.4,0,.2,1), filter 1.6s 1.2s cubic-bezier(.4,0,.2,1);
+opacity: 0;
+transform: translateY(60px);
+filter: blur(10px);
+transition: opacity 1.6s 1.2s cubic-bezier(.4,0,.2,1), transform 1.6s 1.2s cubic-bezier(.4,0,.2,1), filter 1.6s 1.2s cubic-bezier(.4,0,.2,1);
 }
 .animate-footer.visible {
-    opacity: 1;
-    transform: translateY(0);
-    filter: blur(0);
+opacity: 1;
+transform: translateY(0);
+filter: blur(0);
 }
 `;
         document.head.appendChild(style);
